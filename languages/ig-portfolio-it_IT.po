@@ -1,0 +1,264 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: IG Portfolio v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-06-16 14:22:43+0000\n"
+"Last-Translator: iografica <themes@iografica.it>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: class-page-portfolio.php:44
+#: includes/portfolio-post-type.php:10
+#@ ig-portfolio
+msgid "Portfolio"
+msgstr ""
+
+#: extra/portfolio-category-widget.php:17
+#@ default
+msgid "Portfolio Categories"
+msgstr ""
+
+#: extra/portfolio-category-widget.php:59
+#: extra/portfolio-project-widget.php:92
+#@ default
+msgid "Title:"
+msgstr ""
+
+#: extra/portfolio-project-widget.php:9
+#@ default
+msgid "The most recent project of portfolio."
+msgstr ""
+
+#: extra/portfolio-project-widget.php:10
+#@ default
+msgid "Recent Portfolio Projects"
+msgstr ""
+
+#: extra/portfolio-project-widget.php:35
+#@ default
+msgid "Recent Project"
+msgstr ""
+
+#: extra/portfolio-project-widget.php:95
+#@ default
+msgid "Number of project to show:"
+msgstr ""
+
+#: extra/portfolio-project-widget.php:99
+#@ default
+msgid "Display project date?"
+msgstr ""
+
+#: includes/portfolio-post-type.php:8
+#@ ig-portfolio
+msgctxt "Post Type General Name"
+msgid "Projects"
+msgstr "Progetti"
+
+#: includes/portfolio-post-type.php:9
+#@ ig-portfolio
+msgctxt "Post Type Singular Name"
+msgid "Project"
+msgstr "Progetto"
+
+#: includes/portfolio-post-type.php:11
+#: includes/portfolio-post-type.php:60
+#@ ig-portfolio
+msgid "Parent Item:"
+msgstr ""
+
+#: includes/portfolio-post-type.php:58
+#@ ig-portfolio
+msgid "All Items"
+msgstr ""
+
+#: includes/portfolio-post-type.php:62
+#@ ig-portfolio
+msgid "Add New Item"
+msgstr ""
+
+#: includes/portfolio-post-type.php:15
+#@ ig-portfolio
+msgid "Add New"
+msgstr ""
+
+#: includes/portfolio-post-type.php:63
+#@ ig-portfolio
+msgid "Edit Item"
+msgstr ""
+
+#: includes/portfolio-post-type.php:64
+#@ ig-portfolio
+msgid "Update Item"
+msgstr ""
+
+#: includes/portfolio-post-type.php:19
+#@ ig-portfolio
+msgid "Not found"
+msgstr ""
+
+#: includes/portfolio-post-type.php:20
+#@ ig-portfolio
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/portfolio-post-type.php:56
+#@ ig-portfolio
+msgctxt "Taxonomy Singular Name"
+msgid "Category"
+msgstr ""
+
+#: includes/portfolio-post-type.php:57
+#@ ig-portfolio
+msgid "Category"
+msgstr ""
+
+#: includes/portfolio-post-type.php:59
+#@ ig-portfolio
+msgid "Parent Item"
+msgstr ""
+
+#: includes/portfolio-post-type.php:61
+#@ ig-portfolio
+msgid "New Item Name"
+msgstr ""
+
+#: includes/portfolio-post-type.php:65
+#@ ig-portfolio
+msgid "Separate items with commas"
+msgstr ""
+
+#: includes/portfolio-post-type.php:66
+#@ ig-portfolio
+msgid "Search Items"
+msgstr ""
+
+#: includes/portfolio-post-type.php:67
+#@ ig-portfolio
+msgid "Add or remove items"
+msgstr ""
+
+#: includes/portfolio-post-type.php:68
+#@ ig-portfolio
+msgid "Choose from the most used items"
+msgstr ""
+
+#: includes/portfolio-post-type.php:69
+#@ ig-portfolio
+msgid "Not Found"
+msgstr "Non Trovato"
+
+#: includes/portfolio-post-type.php:104
+#@ ig-portfolio
+msgid "Customer:"
+msgstr "Cliente:"
+
+#: includes/portfolio-post-type.php:105
+#@ ig-portfolio
+msgid "Project:"
+msgstr "Progetto:"
+
+#: includes/portfolio-post-type.php:106
+#@ ig-portfolio
+msgid "Website:"
+msgstr "Sito web:"
+
+#: templates/page-portfolio.php:60
+#: templates/single-project.php:21
+#: templates/taxonomy-portfolio.php:44
+#@ ig-portfolio
+msgid "Posted on:"
+msgstr "Pubblicato il:"
+
+#: templates/page-portfolio.php:71
+#: templates/taxonomy-portfolio.php:55
+#@ iografica
+msgid "Edit"
+msgstr ""
+
+#: templates/page-portfolio.php:81
+#: templates/taxonomy-portfolio.php:65
+#@ ig-portfolio
+msgid "Page"
+msgstr "Pagina"
+
+#: templates/single-project.php:24
+#@ ig-portfolio
+msgid "Category:"
+msgstr "Categoria:"
+
+#: templates/single-project.php:47
+#@ ig-portfolio
+msgid "Customer: "
+msgstr "Cliente: "
+
+#: templates/single-project.php:48
+#@ ig-portfolio
+msgid "Project: "
+msgstr "Progetto:  "
+
+#: templates/single-project.php:50
+#@ ig-portfolio
+msgid "Website: "
+msgstr "Sito web: "
+
+#: templates/single-project.php:50
+#@ ig-portfolio
+msgid "Wiew the project"
+msgstr "Vedi il progetto"
+
+#: templates/taxonomy-portfolio.php:11
+#, php-format
+#@ ig-portfolio
+msgid "Portfolio Category: %s"
+msgstr "Categoria Portfolio: %s"
+
+#: includes/portfolio-post-type.php:12
+#@ ig-portfolio
+msgid "All Projects"
+msgstr "Tutti i Progetti"
+
+#: includes/portfolio-post-type.php:13
+#@ ig-portfolio
+msgid "View Project"
+msgstr "Vedi Progetto"
+
+#: includes/portfolio-post-type.php:14
+#@ ig-portfolio
+msgid "Add New Project"
+msgstr "Aggiungi Nuovo Progetto"
+
+#: includes/portfolio-post-type.php:16
+#@ ig-portfolio
+msgid "Edit Project"
+msgstr "Modifica Progetto"
+
+#: includes/portfolio-post-type.php:17
+#@ ig-portfolio
+msgid "Update Project"
+msgstr "Aggiorna Progetto"
+
+#: includes/portfolio-post-type.php:18
+#@ ig-portfolio
+msgid "Search Project"
+msgstr "Cerca Progetto"
+
+#: includes/portfolio-post-type.php:55
+#@ ig-portfolio
+msgctxt "Taxonomy General Name"
+msgid "Category"
+msgstr ""
+
