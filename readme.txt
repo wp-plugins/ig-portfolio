@@ -3,7 +3,7 @@ Contributors: iografica
 Tags: art, artwork, creative, images, photography, portfolio, project, projects, showcase, work
 Requires at least: 3.1
 Tested up to: 4.0
-Stable tag: 1.1
+Stable tag: 1.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,3 +38,6 @@ Add your projects and display them on a specific page using our template system,
 
 =1.1=
 * Shortcodes added.
+
+=1.2=
+* Minor bug fix.

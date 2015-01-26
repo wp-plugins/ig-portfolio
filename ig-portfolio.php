@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name:IG Portfolio
- * Plugin URI: http://themes.iografica.it/downloads/ig-portfolio
+ * Plugin URI: http://www.iograficathemes.com/downloads/ig-portfolio
  * Description: IG Portfolio is a clean and easy-to-use portfolio plugin for WordPress.
- * Version: 1.1
+ * Version: 1.2
  * Author: iografica
- * Author URI: http://themes.iografica.it/
+ * Author URI: http://www.iograficathemes.com/
  * License: GNU General Public License v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
