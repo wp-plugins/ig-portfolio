@@ -26,7 +26,7 @@ function ig_portfolio_submenu_page_callback() {
 <p><?php echo __('To display projects in two or more columns and to customize the post information please upgrade to premium version.', 'ig-portfolio') ?></p>
 <h2><?php echo __('IG Portfolio Shortcodes', 'ig-portfolio') ?></h2>
 <p><?php echo __('Shortcodes are available only in the premium version.', 'ig-portfolio') ?></p>
-<a href="http://themes.iografica.it/downloads/ig-portfolio-premium/" target="_blank">
+<a href="http://www.iograficathemes.com/downloads/ig-portfolio-premium/" target="_blank">
 <?php submit_button( 'Upgrade to premium version', 'primary') ?>
 </a>
 </div>	
