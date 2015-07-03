@@ -54,7 +54,7 @@ function __construct() {
             <?php endif; ?>
 
             <?php if( get_post_meta($post->ID, 'project_details_website', true) ):?>
-            <span class="website"><a href="<?phpproject_details_get_meta('project_details_website'); ?>" rel="nofollow">
+            <span class="website"><a href="<?php project_details_get_meta('project_details_website'); ?>" rel="nofollow">
               <?php esc_html_e('view the project &#8594;', 'ig-portfolio'); ?>
               </a>
             </span>
