@@ -24,10 +24,10 @@ You can create your portfolio's page and display your projects thanks to the por
 IG Portfolio works like a charm with all our themes but also with others WordPress themes thanks to its simplicity and to the clean design.
 
 = Documentation =
-* [Documentation](http://www.iograficathemes.com/documentation/ig-portfolio/)
+* [Documentation](http://www.iograficathemes.com/documentation/ig-portfolio/) - Read the plugin documentation.
 
 = Any idea or suggestion? =
-* [Submit your idea](https://iograficathemes.uservoice.com)
+* [Submit your idea](https://iograficathemes.uservoice.com) - Send us your feedback and suggestions.
 
 == Installation ==
 1. Download the plugin.
