@@ -13,7 +13,7 @@ IG Portfolio is a clean and easy-to-use portfolio plugin for WordPress.
 **IG Portfolio** is a clean and simply project showcase management system for WordPress.
 You can add your projects, add description, images and details and display them with the shortcodes included.
 
-=IG Portfolio includes:=
+= IG Portfolio includes: =
 * A widget to show your recent projects
 * A widget to list your portfolio categories
 * A widget to show your project details (that is shown in the single project page).
