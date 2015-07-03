@@ -38,7 +38,7 @@ ob_start();
                     <?php if ( ! has_excerpt() ) { echo '<p>' . wp_trim_words( get_the_content(), 80, '...' ) . '</p>'; } else { the_excerpt();}?>
                 </div>
                 <div class="meta <?php echo $meta; ?>">
-                <?php esc_html_e('Author:','ig-portfolio'); ?> <?php the_author(); ?><?php echo esc_html__(' &middot; ','ig-portfolio'); ?><?php esc_html_e('Date:','ig-portfolio'); ?> <?php the_date(); ?> <?php ig_portfolio_get_terms() ?>
+                <?php esc_html_e('Author:','ig-portfolio'); ?> <?php the_author(); ?><?php echo esc_html__(' &middot; ','ig-portfolio'); ?><?php esc_html_e('Date:','ig-portfolio'); ?> <?php echo get_the_date(); ?> <?php ig_portfolio_get_terms() ?>
                 </div><!-- .meta -->
             </div>
 
@@ -61,12 +61,12 @@ ob_start();
 }
 add_shortcode( 'ig-portfolio', 'ig_portfolio_shortcode' );
 
-function ig_portfolio_gallery( $atts, $content = null ) {
+function ig_portfolio_gallery_shortcode( $atts, $content = null ) {
 
     // Attributes
     extract( shortcode_atts(
         array(
-            'cat_id' => '',
+            'cat' => '',
             ), $atts )
     );
 ob_start();
@@ -77,7 +77,7 @@ ob_start();
         array(
         'taxonomy' => 'portfolio',
         'field' => 'id',
-        'terms' => array($cat_id))
+        'terms' => array($cat))
     ))
 );
     if ( $query->have_posts() ) { ?>
@@ -97,4 +97,4 @@ ob_start();
     return $myvariable;
     }
         }
-add_shortcode( 'ig-portfolio-gallery', 'ig_portfolio_gallery' );
+add_shortcode( 'ig-portfolio-gallery', 'ig_portfolio_gallery_shortcode' );

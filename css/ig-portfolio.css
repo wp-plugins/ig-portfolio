@@ -12,8 +12,8 @@
 .ig-portfolio .title h2{
     display: inline-block;
     clear: right;
-    padding:4px 0;
-    margin: 4px 0;
+    padding: 0 0 4px 0;
+    margin: 0 0 4px 0;
 }
 .ig-portfolio {
     clear: both;
@@ -23,7 +23,7 @@
 }
 .ig-portfolio .meta {
   font-size: 14px;
-  padding: 10px 0;
+  padding: 4px 0 10px 0;
   color: #888;
   clear: both;
 }
@@ -33,7 +33,7 @@
 }
 .ig-portfolio .meta .cat-name::before{
     content:"·";
-    margin: 0 2px;
+    margin: 0 4px;
 }
 /*shortcodes*/
 .ig-portfolio .meta .hide,

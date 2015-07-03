@@ -31,10 +31,12 @@ function project_details_html( $post) {
     <p>
         <label for="project_details_customer"><?php esc_html_e( 'Customer', 'ig-portfolio' ); ?></label><br>
         <input type="text" name="project_details_customer" id="project_details_customer" value="<?php echo project_details_get_meta( 'project_details_customer' ); ?>">
-    </p>	<p>
+    </p>
+    <p>
         <label for="project_details_project"><?php  esc_html_e( 'Project', 'ig-portfolio' ); ?></label><br>
         <input type="text" name="project_details_project" id="project_details_project" value="<?php echo project_details_get_meta( 'project_details_project' ); ?>">
-    </p>	<p>
+    </p>
+    <p>
         <label for="project_details_website"><?php  esc_html_e( 'Website', 'ig-portfolio' ); ?></label><br>
         <input type="url" name="project_details_website" id="project_details_website" value="<?php echo project_details_get_meta( 'project_details_website' ); ?>">
     </p><?php
