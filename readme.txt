@@ -17,6 +17,7 @@ You can add your projects, add description, images and details and display them 
 * A widget to show your recent projects
 * A widget to list your portfolio categories
 * A widget to show your project details (that is shown in the single project page).
+* A set of shortcodes.
 
 You can create your portfolio's page and display your projects thanks to the portfolio shortcode, you can also show your projects as an image gallery selecting the categories that you want to show.
 IG Portfolio works like a charm with all our themes but also with others WordPress themes thanks to its simplicity and to the clean design.
