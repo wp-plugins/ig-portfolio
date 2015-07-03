@@ -1,0 +1,116 @@
+/* General css */
+.ig-portfolio .image {
+    display: inline-block;
+    float: left;
+    margin: 10px 20px 10px 0;
+    overflow: hidden;
+}
+.ig-portfolio .text{
+    display: block;
+    clear: right;
+}
+.ig-portfolio .title h2{
+    display: inline-block;
+    clear: right;
+    padding:4px 0;
+    margin: 4px 0;
+}
+.ig-portfolio {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.ig-portfolio .meta {
+  font-size: 14px;
+  padding: 10px 0;
+  color: #888;
+  clear: both;
+}
+.ig-portfolio .meta .cat-name{
+  font-size: 14px;
+  color: #888;
+}
+.ig-portfolio .meta .cat-name::before{
+    content:"·";
+    margin: 0 2px;
+}
+/*shortcodes*/
+.ig-portfolio .meta .hide,
+.ig-portfolio .image .hide {
+  display:none;
+}
+.ig-project-details .customer,
+.ig-project-details .project,
+.ig-project-details .website {
+    display: block;
+    border-bottom:1px dotted #dedede;
+    padding: .5em 0;
+}
+.ig-project-details .cat-name {
+    display: block;
+}
+.ig-project-details .cat-title {
+    margin-top:10px;
+    font-weight: bold;
+    display: block;
+}
+.ig-project-details .categories ul li {
+    display: inline-block;
+    margin-top:5px;
+    margin-bottom: 5px;
+    padding-top:0;
+    padding-bottom: 0;
+}
+.ig-portfolio-gallery {
+    clear: both;
+    margin: 10px 0;
+}
+.ig-portfolio-gallery .gallery-image {
+    position: relative;
+    float: left;
+    margin: 0 0 4px 4px;
+    overflow:hidden;
+}
+.ig-portfolio-gallery .gallery-image:hover img,
+.ig-portfolio .image:hover img {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.ig-portfolio-gallery .gallery-image img,
+.ig-portfolio .image img {
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+/*pagination*/
+.ig-potfolio-page ul.page-numbers {
+    list-style:none;
+    margin: 10px 0;
+    display: inline-block;
+    border-bottom: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    border-left: none;
+    border-radius: 2px;
+}
+.ig-potfolio-page .page-numbers li {
+    display: inline-block;
+    float: left;
+    padding: .2em .8em;
+    border-left: 1px solid #dedede;
+    border-bottom: none;
+    border-top: none;
+    border-right:none;
+}
+/*widget*/
+.ig-portfolio-project .project-date {
+    font-size: .8em;
+    color: #888;
+}
+.ig-portfolio-project .project-date::before{
+    content:"·";
+    margin: 0 2px;
+}
