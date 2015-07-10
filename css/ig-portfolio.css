@@ -89,6 +89,7 @@
 .ig-potfolio-page ul.page-numbers {
     list-style:none;
     margin: 10px 0;
+    padding: 0;
     display: inline-block;
     border-bottom: 1px solid #dedede;
     border-top: 1px solid #dedede;
@@ -100,6 +101,7 @@
     display: inline-block;
     float: left;
     padding: .2em .8em;
+    margin: 0;
     border-left: 1px solid #dedede;
     border-bottom: none;
     border-top: none;

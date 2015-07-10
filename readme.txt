@@ -3,7 +3,7 @@ Contributors: iografica
 Tags: art, artwork, creative, images, photography, portfolio, project, projects, showcase, work
 Requires at least: 3.1
 Tested up to: 4.2
-Stable tag: 1.3
+Stable tag: 1.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,3 +54,8 @@ IG Portfolio works like a charm with all our themes but also with others WordPre
 * Better simplicity and themes integration.
 * Added widgets.
 * Updated translations.
+
+=1.4=
+* Minor fix css
+* Minor fix widgets
+* Better categories display for gallery shortcode
