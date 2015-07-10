@@ -1,7 +1,7 @@
 <?php
 
 /**
- * List Categories Widget Class
+ * Portfolio Project Widget Class
  */
 class ig_portfolio_project_widget extends WP_Widget {
 
@@ -11,7 +11,7 @@ function __construct() {
     parent::__construct(
         'ig_portfolio_project_widget', // Base ID
         esc_html__('IG Portfolio Projects', 'ig-portfolio'), // Name
-        array('description' => esc_html__('Show portfolio most recent projects.', 'ig-portfolio' ),) // Args
+        array('description' => esc_html__('Show portfolio most recent projects.', 'ig-portfolio' )) // Args
     );
 }
 //Front-end display of widget.

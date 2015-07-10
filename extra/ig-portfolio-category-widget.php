@@ -12,30 +12,27 @@ function __construct() {
     parent::__construct(
         'ig_portfolio_categories_widget', // Base ID
         esc_html__('IG Portfolio Categories', 'ig-portfolio'), // Name
-        array('description' => esc_html__('Show portfolio categories.', 'ig-portfolio' ),) // Args
+        array('description' => esc_html__('Show portfolio categories.', 'ig-portfolio' )) // Args
     );
 }
 /**
 * Front-end display of widget.
 */
-    function widget($args, $instance) {
-
-        $tax_name = 'portfolio';
-        $args = array();
-        // retrieves an array of categories or taxonomy terms
-        $taxonomies = get_terms($tax_name, $args);
+function widget($args, $instance) {
         ?>
-        <?php echo $args['before_widget']; ?>
-        <?php if ( ! empty( $instance['title'] ) ) {
+    <?php echo $args['before_widget']; ?>
+    <?php if ( ! empty( $instance['title'] ) ) {
         echo $args['before_title'] . apply_filters( 'widget_title', $instance['title'] ). $args['after_title'];
-        }  ?>
+    }  ?>
                 <?php
+                $tax_name = 'portfolio';
+                $taxonomies = get_terms($tax_name);
                     echo '<ul class="ig-portfolio-category">';
                         foreach( $taxonomies as $taxonomy ){
                             $link = get_term_link( $taxonomy, $tax_name );
                         echo '<li>';
                         echo '<a href="'.esc_url($link).'" class="cat-name">';
-                        echo esc_html($taxonomy->name);
+                        echo esc_html__($taxonomy->name);
                         echo '</a>';
                         $sub_args = array(
                             'hide_empty' => false,
@@ -46,7 +43,7 @@ function __construct() {
                         }
                     echo '</ul>';
                 ?>
-    <?php echo $args['after_widget']; ?>
+     <?php echo $args['after_widget']; ?>
 <?php }
 // Back-end widget form.
 public function form( $instance ) {
