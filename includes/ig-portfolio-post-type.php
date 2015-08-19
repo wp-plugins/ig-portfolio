@@ -85,5 +85,22 @@ function ig_portfolio_taxonomy() {
 add_action( 'init', 'ig_portfolio_taxonomy', 0 );
 
 }
+
+//flush 
+function ig_portfolio_plugin_activation() {
+    // Register types to register the rewrite rules
+    ig_portfolio_post_type();
+    ig_portfolio_taxonomy();
+    // Then flush them
+    flush_rewrite_rules();
+}
+register_activation_hook( __FILE__, 'ig_portfolio_plugin_activation');
+ 
+function ig_portfolio_plugin_deactivation() {
+ 
+    flush_rewrite_rules();
+}
+register_activation_hook( __FILE__, 'ig_portfolio_plugin_activation');
+
 /* Stop Adding Functions Below this Line */
 ?>

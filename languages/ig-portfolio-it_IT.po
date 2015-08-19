@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: IG Portfolio\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Fri Jul 03 2015 10:18:31 GMT+0200 (CEST)\n"
-"PO-Revision-Date: 2015-07-03 18:16+0200\n"
+"PO-Revision-Date: 2015-08-19 16:54+0200\n"
 "Last-Translator: iografica <info@iograficathemes.com>\n"
 "Language-Team: \n"
 "Language: it\n"
@@ -11,8 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;"
 "_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;"
 "_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;"
@@ -20,220 +20,220 @@ msgstr ""
 "comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
 "X-Textdomain-Support: yes\n"
 "X-Loco-Target-Locale: it_IT\n"
-"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
 
-#: ../includes/portfolio-post-type.php:8
+#: ../extra/ig-portfolio-category-widget.php:14
+msgid "IG Portfolio Categories"
+msgstr "IG Portfolio Categorie"
+
+#: ../extra/ig-portfolio-category-widget.php:15
+msgid "Show portfolio categories."
+msgstr "Mostra le categorie del portfolio."
+
+#: ../extra/ig-portfolio-category-widget.php:56 ../extra/ig-portfolio-project-
+#: details-widget.php:75 ../extra/ig-portfolio-project-widget.php:56
+msgid "Title:"
+msgstr "Titolo:"
+
+#. Base ID
+#: ../extra/ig-portfolio-project-details-widget.php:12
+msgid "IG Portfolio Project Details"
+msgstr "IG Portfolio Dettagli Progetto"
+
+#: ../extra/ig-portfolio-project-details-widget.php:13
+msgid "The project details."
+msgstr "Dettagli progetto."
+
+#: ../extra/ig-portfolio-project-details-widget.php:34
+msgid "Customer: "
+msgstr "Cliente: "
+
+#: ../extra/ig-portfolio-project-details-widget.php:41
+msgid "Project: "
+msgstr "Progetto:  "
+
+#: ../extra/ig-portfolio-project-details-widget.php:49
+msgid "view the project &#8594;"
+msgstr "vedi il progetto &#8594;"
+
+#: ../extra/ig-portfolio-project-details-widget.php:57
+msgid "Categories:"
+msgstr "Categorie:"
+
+#: ../extra/ig-portfolio-project-details-widget.php:82
+msgid "Display project categories?"
+msgstr "Mostrare le categorie del progetto?"
+
+#. Base ID
+#: ../extra/ig-portfolio-project-widget.php:13
+msgid "IG Portfolio Projects"
+msgstr "IG Portfolio Progetti"
+
+#: ../extra/ig-portfolio-project-widget.php:14
+msgid "Show portfolio most recent projects."
+msgstr "Mostra i progetti recenti del tuo portfolio."
+
+#: ../extra/ig-portfolio-project-widget.php:59
+msgid "Number of project to show:"
+msgstr "Numero di progetti da mostrare:"
+
+#: ../extra/ig-portfolio-project-widget.php:64
+msgid "Display project date?"
+msgstr "Mostrare la data del progetto?"
+
+#: ../extra/ig-portfolio-shortcodes.php:45
+msgid "Author:"
+msgstr "Autore"
+
+#: ../extra/ig-portfolio-shortcodes.php:45
+msgid " &middot; "
+msgstr " &middot; "
+
+#: ../extra/ig-portfolio-shortcodes.php:45
+msgid "Date:"
+msgstr "Data:"
+
+#: ../includes/ig-portfolio-function.php:17
+msgid "Project details"
+msgstr "Dettagli progetto"
+
+#: ../includes/ig-portfolio-function.php:29
+msgid "Add your project details"
+msgstr "Aggiungi i dettagli del progetto"
+
+#: ../includes/ig-portfolio-function.php:32
+msgid "Customer"
+msgstr "Cliente"
+
+#: ../includes/ig-portfolio-function.php:36
+msgid "Project"
+msgstr "Progetto"
+
+#: ../includes/ig-portfolio-function.php:40
+msgid "Website"
+msgstr "Sito web"
+
+#: ../includes/ig-portfolio-function.php:85
+msgid "Image"
+msgstr "Immagine"
+
+#: ../includes/ig-portfolio-post-type.php:8
 msgctxt "ig-portfolio"
 msgid "Projects"
 msgstr "Progetti"
 
-#: ../includes/portfolio-post-type.php:9
+#: ../includes/ig-portfolio-post-type.php:9
 msgctxt "ig-portfolio"
 msgid "Project"
 msgstr "Progetto"
 
-#: ../includes/portfolio-post-type.php:10
+#: ../includes/ig-portfolio-post-type.php:10
 msgid "Portfolio"
 msgstr "Portfolio"
 
-#: ../includes/portfolio-post-type.php:11 ../includes/portfolio-post-type.php:60
+#: ../includes/ig-portfolio-post-type.php:11 ../includes/ig-portfolio-post-type.
+#: php:60
 msgid "Parent Item:"
 msgstr ""
 
-#: ../includes/portfolio-post-type.php:55 ../includes/portfolio-post-type.php:56
+#: ../includes/ig-portfolio-post-type.php:12
+msgid "All Projects"
+msgstr "Tutti i Progetti"
+
+#: ../includes/ig-portfolio-post-type.php:13
+msgid "View Project"
+msgstr "Vedi Progetto"
+
+#: ../includes/ig-portfolio-post-type.php:14
+msgid "Add New Project"
+msgstr "Aggiungi Nuovo Progetto"
+
+#: ../includes/ig-portfolio-post-type.php:15
+msgid "Add New"
+msgstr "Aggiungi nuovo"
+
+#: ../includes/ig-portfolio-post-type.php:16
+msgid "Edit Project"
+msgstr "Modifica Progetto"
+
+#: ../includes/ig-portfolio-post-type.php:17
+msgid "Update Project"
+msgstr "Aggiorna Progetto"
+
+#: ../includes/ig-portfolio-post-type.php:18
+msgid "Search Project"
+msgstr "Cerca Progetto"
+
+#: ../includes/ig-portfolio-post-type.php:19
+msgid "Not found"
+msgstr "Non trovato"
+
+#: ../includes/ig-portfolio-post-type.php:20
+msgid "Not found in Trash"
+msgstr "Non trovato nel cestino"
+
+#: ../includes/ig-portfolio-post-type.php:55 ../includes/ig-portfolio-post-type.
+#: php:56
 msgctxt "ig-portfolio"
 msgid "Category"
 msgstr "Categoria"
 
-#: ../includes/portfolio-post-type.php:58
-msgid "All Items"
-msgstr "Tutti gli elementi"
-
-#: ../includes/portfolio-post-type.php:59
-msgid "Parent Item"
-msgstr ""
-
-#: ../includes/portfolio-post-type.php:61
-msgid "New Item Name"
-msgstr "Nuovo nome elemento"
-
-#: ../includes/portfolio-post-type.php:62
-msgid "Add New Item"
-msgstr "Aggiungi nuovo elemento"
-
-#: ../includes/portfolio-post-type.php:63
-msgid "Edit Item"
-msgstr "Modifica elemento"
-
-#: ../includes/portfolio-post-type.php:64
-msgid "Update Item"
-msgstr "Aggiorna elemento"
-
-#: ../includes/portfolio-post-type.php:65
-msgid "Separate items with commas"
-msgstr "Separa elementi con la virgola"
-
-#: ../extra/portfolio-category-widget.php:11
-msgid "Show the portfolio categories."
-msgstr "Mostra le categorie del portfolio."
-
-#: ../extra/portfolio-category-widget.php:12
-msgid "IG Portfolio Categories"
-msgstr "IG Portfolio Categorie"
-
-#: ../extra/portfolio-category-widget.php:36
-msgid "Portfolio Categories"
-msgstr "Portfolio Categorie"
-
-#: ../extra/portfolio-category-widget.php:87 ../extra/portfolio-project-details-
-#: widget.php:101 ../extra/portfolio-project-widget.php:92
-msgid "Title:"
-msgstr "Titolo:"
-
-#: ../extra/portfolio-project-details-widget.php:9
-msgid "The project details."
-msgstr "Dettagli progetto."
-
-#: ../extra/portfolio-project-details-widget.php:10
-msgid "IG Portfolio Projects Details"
-msgstr "IG Portfolio Dettagli Progetto"
-
-#: ../extra/portfolio-project-details-widget.php:33 ../includes/portfolio-
-#: function.php:17
-msgid "Project details"
-msgstr "Dettagli progetto"
-
-#: ../extra/portfolio-project-details-widget.php:44
-msgid "Customer: "
-msgstr "Cliente: "
-
-#: ../extra/portfolio-project-details-widget.php:51
-msgid "Project: "
-msgstr "Progetto:  "
-
-#: ../extra/portfolio-project-details-widget.php:58
-msgid "view the project &#8594;"
-msgstr "vedi il progetto &#8594;"
-
-#: ../extra/portfolio-project-details-widget.php:65
-msgid "Categories:"
-msgstr "Categorie:"
-
-#: ../extra/portfolio-project-details-widget.php:104
-msgid "Display project categories?"
-msgstr "Mostrare le categorie del progetto?"
-
-#: ../extra/portfolio-project-widget.php:9
-msgid "Show the most recent project of the portfolio."
-msgstr "Mostra i progetti più recenti del portfolio."
-
-#: ../extra/portfolio-project-widget.php:10
-msgid "IG Portfolio Recent Projects"
-msgstr "IG Portfolio Progetti Recenti"
-
-#: ../extra/portfolio-project-widget.php:35
-msgid "Recent Project"
-msgstr "Progetti Recenti"
-
-#: ../extra/portfolio-project-widget.php:95
-msgid "Number of project to show:"
-msgstr "Numero di progetti da mostrare:"
-
-#: ../extra/portfolio-project-widget.php:99
-msgid "Display project date?"
-msgstr "Mostrare la data del progetto?"
-
-#: ../extra/portfolio-shortcodes.php:41
-msgid "Author:"
-msgstr "Autore"
-
-#: ../extra/portfolio-shortcodes.php:41
-msgid " &middot; "
-msgstr ""
-
-#: ../extra/portfolio-shortcodes.php:41
-msgid "Date:"
-msgstr "Data:"
-
-#: ../includes/portfolio-function.php:29
-msgid "Add your project details"
-msgstr "Aggiungi i dettagli del progetto"
-
-#: ../includes/portfolio-function.php:32
-msgid "Customer"
-msgstr "Cliente"
-
-#: ../includes/portfolio-function.php:35
-msgid "Project"
-msgstr "Progetto"
-
-#: ../includes/portfolio-function.php:38
-msgid "Website"
-msgstr "Sito web"
-
-#: ../includes/portfolio-post-type.php:12
-msgid "All Projects"
-msgstr "Tutti i Progetti"
-
-#: ../includes/portfolio-post-type.php:13
-msgid "View Project"
-msgstr "Vedi Progetto"
-
-#: ../includes/portfolio-post-type.php:14
-msgid "Add New Project"
-msgstr "Aggiungi Nuovo Progetto"
-
-#: ../includes/portfolio-post-type.php:15
-msgid "Add New"
-msgstr "Aggiungi nuovo"
-
-#: ../includes/portfolio-post-type.php:16
-msgid "Edit Project"
-msgstr "Modifica Progetto"
-
-#: ../includes/portfolio-post-type.php:17
-msgid "Update Project"
-msgstr "Aggiorna Progetto"
-
-#: ../includes/portfolio-post-type.php:18
-msgid "Search Project"
-msgstr "Cerca Progetto"
-
-#: ../includes/portfolio-post-type.php:19
-msgid "Not found"
-msgstr "Non trovato"
-
-#: ../includes/portfolio-post-type.php:20
-msgid "Not found in Trash"
-msgstr "Non trovato nel cestino"
-
-#: ../includes/portfolio-post-type.php:57
+#: ../includes/ig-portfolio-post-type.php:57
 msgid "Category"
 msgstr "Categoria"
 
-#: ../includes/portfolio-post-type.php:66
+#: ../includes/ig-portfolio-post-type.php:58
+msgid "All Items"
+msgstr "Tutti gli elementi"
+
+#: ../includes/ig-portfolio-post-type.php:59
+msgid "Parent Item"
+msgstr "Elemento genitore:"
+
+#: ../includes/ig-portfolio-post-type.php:61
+msgid "New Item Name"
+msgstr "Nuovo nome elemento"
+
+#: ../includes/ig-portfolio-post-type.php:62
+msgid "Add New Item"
+msgstr "Aggiungi nuovo elemento"
+
+#: ../includes/ig-portfolio-post-type.php:63
+msgid "Edit Item"
+msgstr "Modifica elemento"
+
+#: ../includes/ig-portfolio-post-type.php:64
+msgid "Update Item"
+msgstr "Aggiorna elemento"
+
+#: ../includes/ig-portfolio-post-type.php:65
+msgid "Separate items with commas"
+msgstr "Separa elementi con la virgola"
+
+#: ../includes/ig-portfolio-post-type.php:66
 msgid "Search Items"
 msgstr "Cerca elementi"
 
-#: ../includes/portfolio-post-type.php:67
+#: ../includes/ig-portfolio-post-type.php:67
 msgid "Add or remove items"
 msgstr "Aggiungi o rimuovi elementi"
 
-#: ../includes/portfolio-post-type.php:68
+#: ../includes/ig-portfolio-post-type.php:68
 msgid "Choose from the most used items"
 msgstr "Scegli tra gli elementi più utilizzati"
 
-#: ../includes/portfolio-post-type.php:69
+#: ../includes/ig-portfolio-post-type.php:69
 msgid "Not Found"
 msgstr "Non Trovato"
 
-#: ../includes/portfolio-settings.php:25
+#: ../includes/ig-portfolio-settings.php:25
 msgid "IG Portfolio Settings"
 msgstr ""
 "IG Portfolio \n"
 "Impostazioni"
 
-#: ../includes/portfolio-settings.php:26
+#: ../includes/ig-portfolio-settings.php:26
 msgid ""
 "Learn more about IG Portfolio plugin, visit our website to read the plugin "
 "documentation."
@@ -241,15 +241,15 @@ msgstr ""
 "Apprendi di più riguardo il plugin IG Portfolio, visita il nostro sito web e "
 "leggi la documentazione del plugin."
 
-#: ../includes/portfolio-settings.php:28
+#: ../includes/ig-portfolio-settings.php:28
 msgid "Read the documentation"
 msgstr "Leggi la documentazione"
 
-#: ../includes/portfolio-settings.php:31
+#: ../includes/ig-portfolio-settings.php:31
 msgid "Can i contribute?"
 msgstr "Posso contribuire?"
 
-#: ../includes/portfolio-settings.php:33
+#: ../includes/ig-portfolio-settings.php:33
 msgid ""
 "Would you like to translate the plugin into your language? Send us your language "
 "file and it will be included in the next plugin release."
@@ -257,30 +257,30 @@ msgstr ""
 "Vorresti tradurre il plugin nella tua lingua? Inviaci la tua traduzione e sarà "
 "inclusa nel prossimo aggiornamento del plugin."
 
-#: ../includes/portfolio-settings.php:35
+#: ../includes/ig-portfolio-settings.php:35
 msgid "Read how to make a translation"
 msgstr "Leggi come fare una traduzione"
 
-#: ../includes/portfolio-settings.php:38
+#: ../includes/ig-portfolio-settings.php:38
 msgid "Can't find a feature?"
 msgstr "Non trovi una caratteristica?"
 
-#: ../includes/portfolio-settings.php:40
+#: ../includes/ig-portfolio-settings.php:40
 msgid "Please suggest and vote on ideas / feature requests at the feedback forum."
 msgstr "Suggerisci e vota un'idea / caratteristica nel feedback forum."
 
-#: ../includes/portfolio-settings.php:42
+#: ../includes/ig-portfolio-settings.php:42
 msgid "Submit your feedback"
 msgstr "Invia il tuo feedback"
 
-#: ../includes/portfolio-settings.php:45
+#: ../includes/ig-portfolio-settings.php:45
 msgid "Do you like the plugin?"
 msgstr "Ti piace il plugin?"
 
-#: ../includes/portfolio-settings.php:47
+#: ../includes/ig-portfolio-settings.php:47
 msgid "Why not leave a review on WordPress.org? We'd really appreciate it!"
 msgstr "Perchè non scrivi una recensione su WoordPress.org? Lo apprezzeremo molto!"
 
-#: ../includes/portfolio-settings.php:49
+#: ../includes/ig-portfolio-settings.php:49
 msgid "Submit your review"
 msgstr "Invia la tua recensione"

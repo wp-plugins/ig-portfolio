@@ -66,7 +66,7 @@ function ig_portfolio_shortcode( $atts ) {
 }
 add_shortcode( 'ig-portfolio', 'ig_portfolio_shortcode' );
 
-// TESTIMONIAL GALLERY SHORTCODE
+// PORTFOLIO GALLERY SHORTCODE
 function ig_portfolio_gallery_shortcode( $atts, $content = null ) {
     // Attributes
     extract( shortcode_atts(

@@ -16,7 +16,7 @@ function __construct() {
 
 //Front-end display of widget.
 function widget($args, $instance) {
-    $show_cat = isset( $instance['show_cat'] ) ? esc_attr(['show_cat']) : '';
+    $show_cat = isset( $instance['show_cat'] ) ? esc_attr( $instance['show_cat'] ) : '';
 ?>
 
 <?php if (is_singular('project')) { ?>
@@ -77,8 +77,7 @@ public function form( $instance ) {
         <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $title; ?>" />
     </p>
     <p>
-        <input class="checkbox" type="checkbox" value="1" <?php checked( '1', $show_cat ); ?> id="<?php echo $this->get_field_id( 'show_cat' ); ?>" name="<?php echo $this->get_field_name( 'show_cat' ); ?>" />
-
+        <input class="checkbox" type="checkbox" <?php checked( $show_cat ); ?> id="<?php echo $this->get_field_id( 'show_cat' ); ?>" name="<?php echo $this->get_field_name( 'show_cat' ); ?>" />
         <label for="<?php echo $this->get_field_id( 'show_cat' ); ?>">
             <?php esc_html_e( 'Display project categories?', 'ig-portfolio' ); ?>
         </label>
