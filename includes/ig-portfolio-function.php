@@ -24,7 +24,7 @@ function ig_portfolio_add_meta_box() {
 add_action( 'add_meta_boxes', 'ig_portfolio_add_meta_box' );
 
 function ig_portfolio_html( $post) {
-    wp_nonce_field( '_ig_portfolio_nonce', 'ig_portfolio_nonce' ); ?>
+    wp_nonce_field( 'ig_portfolio_save_meta_box_data', 'ig_portfolio_nonce' ); ?>
 
     <p><?php esc_html_e( 'Add your project details', 'ig-portfolio' ); ?></p>
 
@@ -44,9 +44,7 @@ function ig_portfolio_html( $post) {
 
 function ig_portfolio_save( $post_id ) {
     if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) return;
-    if ( ! isset( $_POST['ig_portfolio_nonce'] ) || ! wp_verify_nonce( $_POST['ig_portfolio_nonce'], '_ig_portfolio_nonce' ) ) return;
-    if ( ! current_user_can( 'edit_post' ) ) return;
-
+    if ( ! isset( $_POST['ig_portfolio_nonce'] ) || ! wp_verify_nonce( $_POST['ig_portfolio_nonce'], 'ig_portfolio_save_meta_box_data' ) ) return;
     if ( isset( $_POST['ig_portfolio_customer'] ) )
         update_post_meta( $post_id, 'ig_portfolio_customer', esc_attr( $_POST['ig_portfolio_customer'] ) );
     if ( isset( $_POST['ig_portfolio_project'] ) )
@@ -75,9 +73,6 @@ function ig_portfolio_get_terms() {
     unset($term);
     } }
 }
-
-//IG PORTFOLIO CUSTOM IMAGE SIZE
-add_image_size( 'ig-portfolio-thumb', 210, 150, true );
 
 // COLUMN
 add_filter('manage_project_posts_columns', 'ig_portfolio_columns');

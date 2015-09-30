@@ -3,7 +3,7 @@
  * Plugin Name:IG Portfolio
  * Plugin URI: http://www.iograficathemes.com/downloads/ig-portfolio
  * Description: IG Portfolio is a clean and simply project showcase management system for WordPress.
- * Version: 1.5
+ * Version: 1.6
  * Author: iografica
  * Author URI: http://www.iograficathemes.com/
  * License: GNU General Public License v2 or later
